@@ -27,7 +27,7 @@ func fibonacci(n int) []*big.Int {
 
 func main() {
 	// Modifier cette valeur pour générer plus ou moins de nombres de Fibonacci
-	n := 100 // Par exemple, les 100 premiers nombres de Fibonacci
+	n := 20000 // Par exemple, les 100 premiers nombres de Fibonacci
 
 	// Générer et afficher la liste de Fibonacci
 	fibList := fibonacci(n)
